@@ -13,6 +13,7 @@ export const metrics = {
   brainwaves: {
     raw: {},
     frequency: {},
+    powerByBand: {},
     psd: {}
   },
   channelAnalysis: {
