@@ -122,6 +122,7 @@ export const metrics = {
   },
   status: {
     battery: {},
+    charging: {},
     connected: {},
     powered: {},
     updating: {}
