@@ -124,8 +124,9 @@ export const metrics = {
     battery: {},
     charging: {},
     connected: {},
-    powered: {},
-    updating: {}
+    connectedSince: {},
+    connectedLast: {},
+    ssid: {}
   }
 };
 
