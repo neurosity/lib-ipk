@@ -26,6 +26,16 @@ export const metrics = {
     CP3: {},
     CP4: {}
   },
+  signalQuality: {
+    FC1: {},
+    FC2: {},
+    FC3: {},
+    FC4: {},
+    CP1: {},
+    CP2: {},
+    CP3: {},
+    CP4: {}
+  },
   emotion: {
     joy: {},
     sadness: {},
