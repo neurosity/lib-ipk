@@ -136,6 +136,7 @@ export const metrics = {
     connected: {},
     connectedSince: {},
     connectedLast: {},
+    simulate: {},
     ssid: {}
   }
 };
