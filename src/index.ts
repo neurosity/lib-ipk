@@ -8,7 +8,8 @@ export const metrics = {
     creativity: {},
     comprehension: {},
     attention: {},
-    meditation: {}
+    meditation: {},
+    calm: {}
   },
   brainwaves: {
     raw: {},
