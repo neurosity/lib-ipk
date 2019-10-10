@@ -7,7 +7,7 @@ export const metrics = {
   awareness: {
     creativity: {},
     comprehension: {},
-    attention: {},
+    focus: {},
     meditation: {},
     calm: {}
   },
