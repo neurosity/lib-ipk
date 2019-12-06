@@ -59,7 +59,6 @@ export const metrics = {
   },
   kinesis: {
     rest: {},
-    artifactDetector: {},
     leftArm: {},
     rightArm: {},
     leftHandPinch: {},
