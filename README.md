@@ -1,8 +1,8 @@
-# Notion IPK
+# Neurosity IPK
 
 Single source of truth for all inter-process communication constants.
 
-## Getting started
+### Getting started
 
 ```bash
 npm install @neurosity/ipk
@@ -27,3 +27,7 @@ const ipk = require("@neurosity/ipk");
 ```js
 import ipk from "@neurosity/ipk/dist/json/index.json";
 ```
+
+### License
+
+Neurosity IPK is [MIT licensed](./LICENSE).
