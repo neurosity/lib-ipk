@@ -50,6 +50,19 @@ const channelNames = {
 export const metrics = {
   kinesis,
   predictions: kinesis,
+  channelAnalysis: channelNames,
+  signalQuality: channelNames,
+  status: {
+    state: {},
+    battery: {},
+    charging: {},
+    connected: {},
+    connectedSince: {},
+    connectedLast: {},
+    updatingProgress: {},
+    simulate: {},
+    ssid: {}
+  },
   awareness: {
     creativity: {},
     comprehension: {},
@@ -63,8 +76,6 @@ export const metrics = {
     powerByBand: {},
     psd: {}
   },
-  channelAnalysis: channelNames,
-  signalQuality: channelNames,
   emotion: {
     joy: {},
     sadness: {},
@@ -84,15 +95,6 @@ export const metrics = {
     blink: {},
     winkLeft: {},
     winkRight: {}
-  },
-  status: {
-    battery: {},
-    charging: {},
-    connected: {},
-    connectedSince: {},
-    connectedLast: {},
-    simulate: {},
-    ssid: {}
   }
 };
 
