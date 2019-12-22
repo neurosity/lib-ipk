@@ -39,11 +39,6 @@ const kinesis = {
 export const metrics = {
   kinesis,
   predictions: kinesis,
-  acceleration: {
-    x: {},
-    y: {},
-    z: {}
-  },
   awareness: {
     creativity: {},
     comprehension: {},
