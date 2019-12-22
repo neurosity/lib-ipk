@@ -36,6 +36,17 @@ const kinesis = {
   disappear: {}
 };
 
+const channelNames = {
+  CP6: {},
+  F6: {},
+  C4: {},
+  CP4: {},
+  CP3: {},
+  F5: {},
+  C3: {},
+  CP5: {}
+};
+
 export const metrics = {
   kinesis,
   predictions: kinesis,
@@ -52,26 +63,8 @@ export const metrics = {
     powerByBand: {},
     psd: {}
   },
-  channelAnalysis: {
-    FC1: {},
-    FC2: {},
-    FC3: {},
-    FC4: {},
-    CP1: {},
-    CP2: {},
-    CP3: {},
-    CP4: {}
-  },
-  signalQuality: {
-    FC1: {},
-    FC2: {},
-    FC3: {},
-    FC4: {},
-    CP1: {},
-    CP2: {},
-    CP3: {},
-    CP4: {}
-  },
+  channelAnalysis: channelNames,
+  signalQuality: channelNames,
   emotion: {
     joy: {},
     sadness: {},
