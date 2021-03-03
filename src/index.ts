@@ -63,6 +63,16 @@ export const metrics = {
     simulate: {},
     ssid: {}
   },
+  accelerometer: {
+    acceleration: {},
+    inclination: {},
+    orientation: {},
+    pitch: {},
+    roll: {},
+    x: {},
+    y: {},
+    z: {},
+  },
   awareness: {
     creativity: {},
     comprehension: {},
