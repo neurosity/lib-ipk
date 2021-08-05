@@ -82,6 +82,7 @@ export const metrics = {
   },
   brainwaves: {
     raw: {},
+    rawUnfiltered: {},
     frequency: {},
     powerByBand: {},
     psd: {}
