@@ -71,7 +71,7 @@ export const metrics = {
     roll: {},
     x: {},
     y: {},
-    z: {},
+    z: {}
   },
   awareness: {
     creativity: {},
@@ -108,6 +108,8 @@ export const metrics = {
     winkRight: {}
   }
 };
+
+export * from "./bluetooth";
 
 export default {
   metrics
