@@ -1,3 +1,5 @@
+export const BLUETOOTH_SERVICE_UUID = 0x1803;
+
 // Generated via https://www.guidgenerator.com/online-guid-generator.aspx
 export const BLUETOOTH_CHARACTERISTICS = {
   deviceId: "d7e84cb2-ff37-4afc-9ed8-5577aeb84542",
