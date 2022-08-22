@@ -1,4 +1,6 @@
-export const BLUETOOTH_SERVICE_UUID = 0x1803;
+export const BLUETOOTH_PRIMARY_SERVICE_UUID_HEX = 0x1803;
+export const BLUETOOTH_PRIMARY_SERVICE_UUID_STRING =
+  BLUETOOTH_PRIMARY_SERVICE_UUID_HEX.toString(16);
 
 // Generated via https://www.guidgenerator.com/online-guid-generator.aspx
 export const BLUETOOTH_CHARACTERISTICS = {
