@@ -18,3 +18,5 @@ export const BLUETOOTH_CHARACTERISTICS = {
   psd: "d6684fb0-8518-40c0-8e88-4634e762435d",
   powerByBand: "2f6236dd-215a-427f-b94c-ab5df71937af"
 };
+
+export const BLUETOOTH_CHUNK_DELIMITER = "\n";
