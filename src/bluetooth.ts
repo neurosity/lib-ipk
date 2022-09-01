@@ -2,6 +2,11 @@ export const BLUETOOTH_PRIMARY_SERVICE_UUID_HEX = 0x1803;
 export const BLUETOOTH_PRIMARY_SERVICE_UUID_STRING =
   BLUETOOTH_PRIMARY_SERVICE_UUID_HEX.toString(16);
 
+export const BLUETOOTH_COMPANY_IDENTIFIER_HEX = 0x0bce;
+export const BLUETOOTH_COMPANY_IDENTIFIER_STRING =
+  BLUETOOTH_COMPANY_IDENTIFIER_HEX.toString(16);
+export const BLUETOOTH_DEVICE_NAME_PREFIXES = ["Crown-", "Notion-"];
+
 // Generated via https://www.guidgenerator.com/online-guid-generator.aspx
 export const BLUETOOTH_CHARACTERISTICS = {
   deviceId: "d7e84cb2-ff37-4afc-9ed8-5577aeb84542",
