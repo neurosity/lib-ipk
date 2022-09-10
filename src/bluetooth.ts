@@ -22,7 +22,8 @@ export const BLUETOOTH_CHARACTERISTICS = {
   rawUnfiltered: "5472432e-3313-4169-add8-6fcb29accb0e",
   psd: "d6684fb0-8518-40c0-8e88-4634e762435d",
   powerByBand: "2f6236dd-215a-427f-b94c-ab5df71937af",
-  nearbyWifiNetworks: "f1cd519b-07dc-4f33-a285-286db2393359"
+  wifiNearbyNetworks: "f1cd519b-07dc-4f33-a285-286db2393359",
+  wifiConnections: "37b2ce69-6fac-4547-91f3-8f1c527b875d"
 };
 
 export const BLUETOOTH_CHUNK_DELIMITER = "\n";
