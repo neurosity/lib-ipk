@@ -1,6 +1,6 @@
 {
   "name": "@neurosity/ipk",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "description": "Single source of truth for all inter-process communication constants",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
