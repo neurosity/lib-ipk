@@ -31,7 +31,7 @@
   "homepage": "https://github.com/neurosity/lib-ipk#readme",
   "devDependencies": {
     "@types/node": "^10.5.2",
-    "del-cli": "^1.1.0",
+    "del-cli": "^5.0.0",
     "mkdirp": "^0.5.1",
     "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
