@@ -23,6 +23,7 @@ export const BLUETOOTH_CHARACTERISTICS = {
   calm: "7d47617d-a60a-41d1-8df6-cfb78d02ffeb",
   accelerometer: "84501dee-8665-4073-b111-bdecd69fb489",
   signalQuality: "cf28ed0c-20cd-48ed-93c5-ee2fb265099a",
+  signalQualityV2: "902ac5f3-ce59-4c11-94fa-437e89f90630",
   raw: "009cf0bb-b68d-4af1-a0e5-625f2eb964a6",
   rawUnfiltered: "5472432e-3313-4169-add8-6fcb29accb0e",
   psd: "d6684fb0-8518-40c0-8e88-4634e762435d",

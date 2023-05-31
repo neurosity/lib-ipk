@@ -50,20 +50,14 @@ const channelNames = {
 export const metrics = {
   kinesis,
   predictions: kinesis,
-  channelAnalysis: channelNames,
   signalQuality: channelNames,
-  status: {
-    state: {},
-    battery: {},
-    charging: {},
-    connected: {},
-    connectedSince: {},
-    connectedLast: {},
-    updatingProgress: {},
-    simulate: {},
-    ssid: {}
+  signalQualityV2: {
+    timestamp: {},
+    overall: {},
+    byChannel: {}
   },
   accelerometer: {
+    timestamp: {},
     acceleration: {},
     inclination: {},
     orientation: {},
